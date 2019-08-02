@@ -2,7 +2,7 @@ line = "Hello there, and how are you?"
 def reverse_each_word (str) # defines statement
   str_array = str.split(/ /) # splits string into array
   str_array.each { |i| i.reverse! } # loops through and reverses each element in an array
-  str_array.join(" ") # joins elements  back into a string
+  str_array.join(" ") # joins elements back into a string
 end
 reverse_each_word("congrats i can code")
 
